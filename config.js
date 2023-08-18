@@ -3,8 +3,10 @@ module.exports = {
   extends: ["github>scm-manager/renovate-config"],
 
   //General settings
+  platform: "scmm",
   endpoint: "https://ecosystem.cloudogu.com/scm/api/v2",
   username: "renovate",
+  autodiscover: true,
   autodiscoverFilter: ["scm-manager/*", "scm-manager-plugins/*"],
   dryRun: null,
 
