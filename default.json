@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "This is a preset of the admin config to run the renovate bot for the SCM-Manager. The SCM-Manager API Key should be provided as environment Variable RENOVATE_TOKEN and not within a config file",
 
-  "autodiscover": true,
   "baseDir": "/tmp/renovate",
   "executionTimeout": 100,
   "requireConfig": "required",
